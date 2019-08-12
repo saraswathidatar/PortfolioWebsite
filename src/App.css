@@ -1,0 +1,189 @@
+.header-color {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #833ab4;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+  flex-direction:row;
+}
+
+/* Resume Page css */
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+/* contact page css */
+/*
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 66px;
+  padding-right: 5rem;
+}*/
+
+* {
+    box-sizing: border-box;
+}
+ .Contact {
+     max-width: 420px;
+     margin: 0 auto;
+}
+ .Contact p {
+     text-align: center;
+     font-weight: 500;
+}
+ input[type=text],input[type=email], select, textarea {
+     width: 100%;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+}
+ input[type=submit] {
+     background-color: #4CAF50;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+}
+ input[type=submit]:hover {
+     background-color: #45a049;
+}
+ .container {
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 20px;
+}
+
+
+/* contact page css */
+
+.avatar-img {
+  height: 250px;
+  padding-top: 5em;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+.Collapsible {
+  .button {background-color: #4CAF50;}
+}
+
+.resume-background{
+  background: #83a4d4;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #b6fbff, #83a4d4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #b6fbff, #83a4d4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.resume-center{
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2em;
+}
+
+.Collapsible__trigger {
+  display: block;
+  font-weight: 400;
+  text-decoration: none;
+  color: #333333;
+  position: relative;
+  border: 1px solid white;
+  padding: 10px;
+  background: #00ac9d;
+  color: white;
+}
+
+.CardText {
+  color: red;
+}

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class Contact extends Component {
   render() {
     return (
+      <div className="contact-background">
       <div className="Contact">
           <p>Contact Me</p>
           <div>
@@ -21,6 +22,7 @@ class Contact extends Component {
           <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
           <input type="submit" value="Submit" />
           </form>
+          </div>
           </div>
           </div>
 );

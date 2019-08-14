@@ -32,7 +32,7 @@ class Projects extends Component {
           </Card>
           {/* Project 2 */}
           <Card shadow={5} style={{minWidth: '800', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '210px', background: 'url() center / cover'}} ></CardTitle>
+            <CardTitle style={{color: '#fff', height: '210px', background: 'url("https://res.cloudinary.com/dxieulu0p/image/upload/v1565812438/Ftpclient_zfyew4.png") center / cover'}} ></CardTitle>
             <CardText>
               FTP Client application in C#
             </CardText>
@@ -41,30 +41,16 @@ class Projects extends Component {
               </Collapsible>
               <CardActions border className="button-bootstrap">
                 <a href="https://github.com/pdx-cs-lbryan/ftpclient" rel="noopener noreferrer" target="_blank"><Button colored>Github</Button></a>
+                <a href="https://res.cloudinary.com/dxieulu0p/image/upload/v1565812438/Ftpclient_zfyew4.png" rel="noopener noreferrer" target="_blank"><Button colored>Screenshot</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
             </CardMenu>
           </Card>
+
           {/* Project 3 */}
           <Card shadow={5} style={{minWidth: '800', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '210px', background: 'url() center / cover'}} ></CardTitle>
-            <CardText>
-              Internet Relay Chat application in Python
-            </CardText>
-              <Collapsible trigger="Click on View Description">
-              <p>Basic IRC app that allows to create a room, join a room, list all rooms, list members of a room, send messages to a room, leave a room, join multiple rooms and send messages to multiple rooms.</p>
-              </Collapsible>
-              <CardActions border className="button-bootstrap">
-                <a href="https://github.com/saraswathidatar/InternetRelayChat" rel="noopener noreferrer" target="_blank"><Button colored>Github</Button></a>
-            </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          {/* Project 4 */}
-          <Card shadow={5} style={{minWidth: '800', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '210px', background: 'url() center / cover'}} ></CardTitle>
+            <CardTitle style={{color: '#fff', height: '210px', background: 'url("https://res.cloudinary.com/dxieulu0p/image/upload/v1565812850/Howtoplayboardgames_y7p6cl.png") center / cover'}} ></CardTitle>
             <CardText>
               How to Play Board Games in Android
             </CardText>
@@ -73,6 +59,7 @@ class Projects extends Component {
               </Collapsible>
               <CardActions border className="button-bootstrap">
                 <a href="https://github.com/saraswathidatar/Howtoplayboardgames" rel="noopener noreferrer" target="_blank"><Button colored>Github</Button></a>
+                <a href="https://res.cloudinary.com/dxieulu0p/image/upload/v1565812850/Howtoplayboardgames_y7p6cl.png" rel="noopener noreferrer" target="_blank"><Button colored>Screenshot</Button></a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
               <IconButton name="share" />
@@ -148,6 +135,23 @@ class Projects extends Component {
             </Collapsible>
             <CardActions border className="button-bootstrap">
               <a href="https://res.cloudinary.com/dxieulu0p/image/upload/v1565487982/desktopemailalert_xicmj3.png" rel="noopener noreferrer" target="_blank"><Button colored>Screenshot</Button></a>
+          </CardActions>
+          <CardMenu style={{color: '#fff'}}>
+            <IconButton name="share" />
+          </CardMenu>
+        </Card>
+
+        {/* Project 2 */}
+        <Card shadow={5} style={{minWidth: '800', margin: 'auto'}}>
+          <CardTitle style={{color: '#fff', height: '210px', background: 'url("https://res.cloudinary.com/dxieulu0p/image/upload/v1565813451/irc_eqozhb.png") center / cover'}} ></CardTitle>
+          <CardText>
+            Internet Relay Chat application in Python
+          </CardText>
+            <Collapsible trigger="Click on View Description">
+            <p>Basic IRC app that allows to create a room, join a room, list all rooms, list members of a room, send messages to a room, leave a room, join multiple rooms and send messages to multiple rooms.</p>
+            </Collapsible>
+            <CardActions border className="button-bootstrap">
+              <a href="https://github.com/saraswathidatar/InternetRelayChat" rel="noopener noreferrer" target="_blank"><Button colored>Github</Button></a>
           </CardActions>
           <CardMenu style={{color: '#fff'}}>
             <IconButton name="share" />

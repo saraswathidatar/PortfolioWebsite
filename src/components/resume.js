@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button } from 'react-mdl';
 
 class Resume extends Component{
     render() {

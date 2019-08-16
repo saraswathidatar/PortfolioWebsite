@@ -16,3 +16,5 @@ Future enhancements:
 3)Plan to add google embed api
 
 Credits: Paul Hanna
+
+Note: The website takes less time to load in IE browser as compared to others. I am looking for how to make websites load faster and will be able to add that in the next version.

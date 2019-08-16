@@ -8,6 +8,8 @@ Project Status:
 3)About me page 
 4)Contact form page which is not completed yet. Using PHP to connect to server and Axios to send data to mail server.
 
+You can view my portfolio website deployed on https://saraswathiportfolio.herokuapp.com/
+
 Future enhancements:
 1)Make the website interactive.
 2)Planning to use MERN stack.
